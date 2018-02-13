@@ -1,0 +1,108 @@
+/*
+* Menggunakan external css
+* semua styling external css berada pada file ini
+* path: DOCUMENT_ROOT/style.css
+*/
+
+body {
+    margin: 0 auto;
+    width: 1024px;
+    height: auto;
+}
+
+.logo {
+    width: 150px;
+    height: 80px;
+    float: left;
+    background-color: #adacac;
+    margin: 10px;
+    clear: both;
+}
+
+
+.container {
+    margin: 10px 20px;
+    padding: 13px;
+    float: left;
+    background-color: #f2f4f7;
+}
+
+#header {
+    float: left;
+    width: 100%;
+}
+
+nav {
+    float: left;
+    background-color: #adacac;
+    margin: 0 10px;
+    clear: both;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    height: 20px;
+    display: block;
+}
+nav ul a:hover {
+    color: white;
+    background-color: #838181;
+}
+
+main section {
+    /*width: 95%;
+    float: left;*/
+    margin: 0px 10px 10px 10px;
+    background-color: #000;
+    height: auto;
+}
+
+main section article {
+    width: 680px;
+    float: left;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #adacac;
+}
+
+aside{
+    width: 230px;
+    float: right;
+}
+
+
+aside section {
+    background-color: #838181;
+    width:190px;
+    padding: 10px;
+    margin: 10px;
+    height: 190px;
+    float: right;
+    clear: both;
+}
+section#footer {
+    width: 940px;
+    float: left;
+    margin: 0px 10px 10px 10px;
+    background-color: #d5d2d2;
+    height: auto;
+}
+.footer div.description {
+    margin: 20px 10px;
+    float: left;
+    width: 50%;
+}
+
+.footer div.subscriber {
+    margin: 40px 60px 10px 0;
+    float: right;
+}
